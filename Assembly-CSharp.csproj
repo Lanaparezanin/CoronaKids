@@ -166,7 +166,6 @@
     <Compile Include="Assets\Purchased\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
     <Compile Include="Assets\Purchased\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
     <Compile Include="Assets\Purchased\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Simple Kid Bob\Example\Scripts\ButtonResponderUpdated.cs" />
     <Compile Include="Assets\Simple Kid Bob\Example\Scripts\ChangeBlendShapeOfSelectedObject.cs" />
     <Compile Include="Assets\Simple Kid Bob\Example\Scripts\ChangeMaterialTexture.cs" />

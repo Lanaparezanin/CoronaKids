@@ -16250,7 +16250,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 745.6, y: 225.1}
+  m_SizeDelta: {x: 745.6, y: 410.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1118462696
 MonoBehaviour:
@@ -16285,8 +16285,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Playing with your friends is fun, but you must stay safe! Can you say hi
-    to all of your friends and keep 6 feet distance?
+  m_Text: Playing with your friends is fun, but you must stay safe! Press arrows to
+    move and SPACE to say hi to your friends. Can you greet all of them and keep at
+    safe 6 feet distance?
 --- !u!222 &1118462697
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -13,6 +13,8 @@ public class GameController : MonoBehaviour
     
     
     //if beginning, put beginning canvas
+    
+    
     //if Bobbi interacted with person, circle around is green, Bobbi gets a point
     //if all points, Bobbi wins
     //if Bobbi too close, Bobbi gets red screen try again and moves away
@@ -28,9 +30,6 @@ public class GameController : MonoBehaviour
     void Update()
     {
         StartButton.onClick.AddListener(BeginNow);
-        {
-            
-        }
     }
 
 

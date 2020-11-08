@@ -8,16 +8,22 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour
 {
     public GameObject IntroCanvas;
+    public GameObject WinScreen;
     public Button StartButton;
+
+    public GameObject pt0;
+    public GameObject pt1;
+    public GameObject pt2;
+    public GameObject pt3;
+    public GameObject pt4;
+    public GameObject pt5;
+    public GameObject pt6;
+    public GameObject pt7;
+    
+    
+    
     //public GameObject Button;
     
-    
-    //if beginning, put beginning canvas
-    
-    
-    //if Bobbi interacted with person, circle around is green, Bobbi gets a point
-    //if all points, Bobbi wins
-    //if Bobbi too close, Bobbi gets red screen try again and moves away
     
 
     // Start is called before the first frame update
@@ -30,6 +36,13 @@ public class GameController : MonoBehaviour
     void Update()
     {
         StartButton.onClick.AddListener(BeginNow);
+
+        if (pt1.activeSelf && pt2.activeSelf && pt3.activeSelf && pt4.activeSelf && pt0.activeSelf && pt5.activeSelf &&
+            pt6.activeSelf && pt7.activeSelf)
+        {
+            WinScreen.SetActive(true);
+        }
+        
     }
 
 

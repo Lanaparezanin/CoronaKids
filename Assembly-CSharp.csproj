@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameController.cs" />
     <Compile Include="Assets\Purchased\DogPack\Examples\Scripts\Animate.cs" />
     <Compile Include="Assets\Purchased\DogPack\Examples\Scripts\ButtonResponder.cs" />
     <Compile Include="Assets\Purchased\DogPack\Examples\Scripts\ChangeBlendShape.cs" />

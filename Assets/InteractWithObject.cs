@@ -12,6 +12,7 @@ public class InteractWithObject : MonoBehaviour
     private Material mat_original;
     public Material mat_blink;
     private MeshRenderer _meshRenderer;
+    //public GameObject Audio;
     private float timer = 0;
     private bool blinkOn = false;
     private bool playerInCollider = false;
@@ -56,7 +57,7 @@ public class InteractWithObject : MonoBehaviour
 
     public void Start()
     {
-        
+
         // materials for material blinking
         if (BlinkWhenPlayerNear)
         {
@@ -97,6 +98,7 @@ public class InteractWithObject : MonoBehaviour
         if (interactionDelayFrames <= 0 && playerInCollider && Input.GetAxis("Interact") > 0)
         {
             interactionDelayFrames = interactionDelayFramesMax;
+            //Audio.SetActive(true);
             //if (hasItem && itemToReceive != null)
             {
                 //foreach (var item in itemToReceive)

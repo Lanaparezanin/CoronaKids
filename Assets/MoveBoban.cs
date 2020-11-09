@@ -17,7 +17,7 @@ public class MoveBoban : MonoBehaviour
     {
         Canvas.SetActive(true);
         Boban.transform.forward = new Vector3(Boban.transform.position.x-5, Boban.transform.position.y, Boban.transform.position.z);
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(3.5f);
         Canvas.SetActive(false);
     }
     
